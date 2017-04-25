@@ -3,6 +3,8 @@
 
 Pasos para el correcto funcionamiento del proyecto : 
 
+##BackEnd
+
 #### Paso 1 
 
 Descargar el repositorio Taller Cloud, donde se encontrará dos carpetas llamadas backend y frontend , ademas del modelo de bases de datos. 
@@ -39,3 +41,36 @@ localhost:8080/_ah/api/explorer
 ```
 y probar los endpoints con el API de google.
 
+
+##FrontEnd
+
+Configuracion para el correcto funcionamiento del frontend
+
+### Paso 1
+
+Como ya se ha descargado todas las carpetas del repositorio se dbe ubicar dentro del repositorio frontEnd.
+
+### Paso 2
+
+Seguido de esto se debe instalar npm install y ya adentro de esta carpeta se corre el comando npm start
+
+### Paso 3
+
+cuando el proyecto suba correctamente se preba el correcto funcionamiento de los servicios con el frontend
+
+### Paso 4
+
+Debe tenerse encuenta que dentro del render estan mostrandose cada vista segun el servicio, es decir, dentro del metodo render se llama a cada uno de los metodos para poder desplegarlos en la vista.
+
+```
+ReactDOM.render(
+  //<App />,
+  //document.getElementById('root')
+ // <AgregarEquipo />,
+  //document.getElementById('root2')
+  <EliminarEquipo />,
+  //document.getElementById('root3')
+  //<EditarEquipo />,
+  document.getElementById('root4')
+);
+```
