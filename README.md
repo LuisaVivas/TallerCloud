@@ -3,7 +3,7 @@
 
 Pasos para el correcto funcionamiento del proyecto : 
 
-##BackEnd
+## BackEnd
 
 #### Paso 1 
 
@@ -42,7 +42,7 @@ localhost:8080/_ah/api/explorer
 y probar los endpoints con el API de google.
 
 
-##FrontEnd
+## FrontEnd
 
 Configuracion para el correcto funcionamiento del frontend
 
